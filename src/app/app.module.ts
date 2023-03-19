@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -12,7 +13,9 @@ import { SiteLayOutModule } from './site-lay-out/site-lay-out.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SiteLayOutModule
+    SiteLayOutModule,
+    HttpClientModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

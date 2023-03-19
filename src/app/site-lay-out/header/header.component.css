@@ -1,12 +1,40 @@
-#name{
-    color:rgb(7,117,54);
+#top{
+    background-color:#45477c;
+    /* color: aliceblue; */
+    
 }
-/* }
-#nav{ */
-    /* background-color: blueviolet; */
-/* } */
+#name{
+    color:rgb(21, 190, 35);
+}
+
+/* #nav{ 
+    
+    
+} */
 #header{
     background-image: url(https://i.postimg.cc/FznJ0r28/header.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+   /* background-color: blueviolet; */
+   padding: 160px;
+   
+   /* margin-top: 20px; */
    
 }
+/* #hdr{
+   padding: right 10px; ;
+} */
+img{
+    transition: 1s ease-in-out;
+   
+   
+    
+}
+ img:hover {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.733)
+    
+ }
+ 
+/* #effects:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    */

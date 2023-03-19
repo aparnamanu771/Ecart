@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
+import { ProductService } from '../product.service';
 
 @Component({
   selector: 'app-view-all-products',
@@ -6,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./view-all-products.component.css']
 })
 export class ViewAllProductsComponent {
+  productList: any;
+  constructor(private ps:ProductService) { }
+  ngOnInit(): void {
+
+    this.ps.viewAllProduct().subscribe(data=>{
+      // console.log(data);
+      this.productList=data
+      
+    })
+
+  }
 
 }
