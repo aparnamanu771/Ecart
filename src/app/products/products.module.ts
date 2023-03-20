@@ -8,7 +8,8 @@ import { ViewProductComponent } from './view-product/view-product.component';
 import { AddProductsComponent } from './add-products/add-products.component';
 import { EditProductComponent } from './edit-product/edit-product.component';
 import { DeleteProductComponent } from './delete-product/delete-product.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { FilterPipe } from './pipe/filter.pipe'
 
 
 
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http'
     ViewProductComponent,
     AddProductsComponent,
     EditProductComponent,
-    DeleteProductComponent
+    DeleteProductComponent,
+    FilterPipe
   ],
   imports: [
     CommonModule,

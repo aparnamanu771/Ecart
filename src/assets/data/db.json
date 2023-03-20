@@ -42,12 +42,12 @@
       },
       {
         "id": 4,
-        "productName": "Gloss",
+        "productName": "Lip Gloss",
         "categoryId": 1,
         "description": "HI-SHINE LIP GLOSS VALUE SET",
         "price": "₹375",
         "isAvailable":"true",
-        "productImage": "https://i.postimg.cc/prgt5Dfy/4-shine-plump-lip-gloss.webp",
+        "productImage": "https://i.postimg.cc/X7F7NbXk/16-natural-lip-tint-set-of-2-soft-matte-lasting-paraben-sls-free-original-imagg2yb9zh8yech.webp",
         "rating":"4.8",
         "priview":"140",
         "vendorName":"HI-SHINE ",
@@ -198,7 +198,7 @@
       },
       {
         "id": 15,
-        "productName": "Polish Remover",
+        "productName": " Nail Polish Remover",
         "categoryId": 4,
         "description": "TILKOR Nail Polish Remover",
         "price": "₹155",
@@ -250,7 +250,7 @@
       },
       {
         "id": 18,
-        "productName": "Sun Protection",
+        "productName": "Sun Protection cream",
         "categoryId": 5,
         "description": "ARATA Sunscreen Gel|Broad Spectrum, Non Sticky & No White Cast - SPF 50+ PA+++  (50 ml)",
         "price": "₹249",
@@ -312,6 +312,34 @@
         "priview":"140",
         "vendorName":"miya",
         "warrenty":"1"
+      },
+      {
+        "id": 23,
+        "productName": "Lipsticks",
+        "categoryId": 1,
+        "description": "BLUSHIS Non Transfer Waterproof Longlast Liquid Matte me Beauty Lipstick Combo Pack Of 2  (Maroon, Chocolate Brown, 16 ml)",
+        "price": "₹159",
+        "isAvailable":"true",
+        "productImage": "https://i.postimg.cc/LstWCxCS/16-non-transfer-waterproof-longlast-liquid-matte-me-beauty-original-imagb7bhhghewhgf.webp",
+        "rating":"4.8",
+        "priview":"139",
+        "vendorName":"MISS ROSE ",
+        "warrenty":"1"
+      
+      },
+      {
+        "id": 24,
+        "productName": "Lip Serum",
+        "categoryId": 1,
+        "description": "MamaEarth Naturally Matte Lip Serum - Matte Liquid Lipstick with Vitamin C & E For Upto 12 Hour Long Stay - Beet it Red  (Beet it Red, 3 ml)",
+        "price": "₹556",
+        "isAvailable":"true",
+        "productImage": "https://i.postimg.cc/x8XGNdBC/3-naturally-matte-lip-serum-matte-liquid-lipstick-with-vitamin-c-original-imagad9k93gjjm5h.webp",
+        "rating":"4.8",
+        "priview":"139",
+        "vendorName":"MamaEarth",
+        "warrenty":"1"
+      
       }
       
     ]

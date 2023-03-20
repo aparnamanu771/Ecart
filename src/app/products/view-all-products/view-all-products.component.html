@@ -1,9 +1,65 @@
 <!-- Section-->
+
+<div  class="container px-4 px-lg-5 mt-5">
+    <div id="circle" class=" row text-center gx-4 gx-lg-5 row-cols-2 row-cols-md-3 justify-content-center">
+
+        <div class="p-4  col-lg-2 col-md-4 col-sm-6 ">
+             <a (click)="filter('')">
+                 <img style="height: 150px; width: 75%; " class="w-100 rounded-circle" src="https://i.postimg.cc/MGKqN8dN/makeup-products.webp" alt="">
+                 <p class="pt-2"><b>VIEW ALL PRODUCTS</b></p>
+             </a>
+        </div>
+
+        <div class="p-4  col-lg-2 col-md-4 col-sm-6">
+           <a (click)="filter(1)">
+                <img style="height: 150px; width: 75%; " class="w-100 rounded-circle" src="https://i.postimg.cc/652tnXQf/desktop-wallpaper-close-up-view-of-woman-with-red-lips-women-lips-thumbnail.jpg" alt="">
+                <p class="pt-2"><b>LIPS</b></p>
+           </a>
+       </div>
+
+       <div class="p-4  col-lg-2 col-md-4 col-sm-6">
+          <a (click)="filter(2)">
+              <img style="height: 150px; width: 75%; " class="w-100 rounded-circle" src="https://i.postimg.cc/4N1X4d7n/female-eye-beautiful-fashion-bright-pink-makeup-closeup-35725903.jpg" alt="">
+              <p class="pt-2"><b>EYES</b></p>
+          </a>
+       </div>
+
+       <div class="p-4  col-lg-2 col-md-4 col-sm-6">
+         <a (click)="filter(3)">
+              <img style="height: 150px; width: 75%; " class="w-100 rounded-circle" src="https://i.postimg.cc/PqyRfDMG/jennifer-marquez-WW-TIGWKCyc-unsplash.jpg" alt="">
+              <p class="pt-2"><b>FACE</b></p>
+         </a>
+       </div>
+
+       <div class="p-4  col-lg-2 col-md-4 col-sm-6">
+           <a (click)="filter(4)">
+               <img style="height: 150px; width: 75%; " class="w-100 rounded-circle" src="https://i.postimg.cc/hv883wDy/istockphoto-600992952-612x612.jpg" alt="">
+               <p class="pt-2"><b>NAIL</b></p>
+           </a>
+       </div>
+
+        <div class="p-4 col-lg-2 col-md-4 col-sm-6">
+            <a (click)="filter(5)">
+                <img style="height: 150px; width: 75%; " class="w-100 rounded-circle" src="https://i.postimg.cc/Ss2DVDY3/close-up-asian-woman-with-leaves.jpg" alt="">
+                <p class="pt-2"><b>SKIN CARE</b></p>
+            </a>
+        </div>
+       
+    </div>
+</div>
+
+
 <section class="py-5">
     <div class="container px-4 px-lg-5 mt-5">
         <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-            <div  *ngFor="let i of productList" class="col mb-5">
+            <div  *ngFor="let i of  filterProducts | filter:'':'productName' " class="col mb-5">
                 <div id="effects" class="card h-100">
+
+
+                    
+
+
+
 
                      <img style="height: 300px; border: none;" class="card-img-top" src="{{i.productImage}}" alt="..." />
 

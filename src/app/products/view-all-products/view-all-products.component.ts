@@ -7,8 +7,15 @@ import { ProductService } from '../product.service';
   styleUrls: ['./view-all-products.component.css']
 })
 export class ViewAllProductsComponent {
+
   productList: any;
+  filterProducts:any
+
+
+
   constructor(private ps:ProductService) { }
+
+
   ngOnInit(): void {
 
     this.ps.viewAllProduct().subscribe(data=>{
@@ -16,6 +23,12 @@ export class ViewAllProductsComponent {
       this.productList=data
       
     })
+
+  }
+
+  filter(category:any){
+
+    this.filterProducts=this.productList.filter((item:any)=>item.categoryId==category || category=="")
 
   }
 
