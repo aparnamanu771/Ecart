@@ -8,8 +8,9 @@ import { ProductService } from '../product.service';
 })
 export class ViewAllProductsComponent {
 
-  productList: any;
+  productList: any
   filterProducts:any
+  searchkey:any=""
 
 
 
@@ -22,6 +23,10 @@ export class ViewAllProductsComponent {
       // console.log(data);
       this.productList=data
       
+    })
+
+    this.ps.search.subscribe((value:any)=>{
+       this.searchkey=value
     })
 
   }
