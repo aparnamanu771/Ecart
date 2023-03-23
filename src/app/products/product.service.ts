@@ -21,5 +21,10 @@ export class ProductService {
   viewProduct(productId:any){
     return this.http.get('http://localhost:3000/products/'+productId)
   }
+
+  // api to delete a product
+  DeleteProductComponent(productId:any){
+    return this.http.delete('http://localhost:3000/products/'+productId)
+  }
 }
 
