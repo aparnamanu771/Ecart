@@ -1,0 +1,25 @@
+h1{
+    color: rgb(29, 25, 25);
+    text-shadow: 2px 2px #FF0000;
+}
+h1:hover{
+    transform: scale(1.1);
+}
+button{
+    width: 200px;
+    transition: 0.2s ease-in;
+    background-color:rgb(27, 109, 11) ;
+    color: #ffffff;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: rgb(5, 146, 5);
+}
+form{
+    transition: 0.2s ease-in;
+    background-color: rgb(200, 181, 211);
+}
+form:hover{
+    transform: scale(1.01);
+    background-color: rgba(182, 149, 212, 0.295);
+}

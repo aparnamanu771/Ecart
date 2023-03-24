@@ -57,10 +57,11 @@
                     <div class="card-body p-4">
                         <div class="text-center" style="color: #951687;">
                             <!-- Product name-->
-                            <h4 class="fw-bolder" >{{i.productName}}</h4>
+                            <h2 class="fw-bolder" >{{i.productName}}</h2>
                             <!-- Product price-->
                             {{i.price}} <b>Rs</b>
-                            <p >Rating <strong>{{i.rating}}</strong></p>
+                            <p class="lead" style="color: #0c0b0c;"><b>vendor Name:</b>{{i.vendorName}}</p>
+                    <p class="lead" style="color: #141314;"><b><i class="fa-solid fa-star" style="color: rgb(221, 218, 20);"></i></b>{{i.rating}}  <b style="color: #29252927;">|</b>  {{i.priview}} Review</p>
                         </div>
                     </div>
                     <!-- Product actions-->

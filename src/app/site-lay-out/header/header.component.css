@@ -11,21 +11,18 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.733)
     
 } */
- #header{
-    background-image: url(https://i.postimg.cc/FznJ0r28/header.jpg);
+ /* #header{ */
+    /* background-image: url(https://i.postimg.cc/FznJ0r28/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-   background-color: rgb(214, 213, 214);
-    padding: 160px; 
-    
-   /* margin-top: 20px; */
+    height:600px ;
+    align-items: center;
+    display: flex; */
    
- } 
-/* #hdr{
-   padding: right 10px; ;
-} */
-
- 
-/* #effects:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    */
+ /* }  */
+ @media (max-width:767px){
+    #cart{
+        margin-top: 20px;
+    
+   }
+ }
