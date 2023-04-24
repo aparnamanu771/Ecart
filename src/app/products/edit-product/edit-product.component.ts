@@ -24,5 +24,26 @@ export class EditProductComponent implements OnInit {
       
     })
   }
+  updateProduct(form:any){
+    console.log(this.pdata);
+    this.ps.updateProduct(this.pid,this.pdata).subscribe((item:any)=>{
+      alert("updated")
+    })
+    
+    // let UpdateProduct={
+    //   id:form.value.id ,
+    //   productName:form.value.productName ,
+    //   categoryId: form.value.categoryId ,
+    //   description: form.value.description,
+    //   price:form.value.price ,
+    //   isAvailable: form.value.isAvailable,
+    //   productImage:form.value.productImage ,
+    //   rating: form.value.rating ,
+    //   priview:form.value.priview ,
+    //   vendorName:form.value.vendorName ,
+    //   warrenty:form.value.warrenty 
+    // }
+
+  }
 
 }
